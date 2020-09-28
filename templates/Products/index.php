@@ -5,8 +5,10 @@
  */
 ?>
 <div class="products index content">
-    <?= $this->Html->link(__('New Product'), ['action' => 'add'], ['class' => 'button float-right']) ?>
+    
     <h3><?= __('Products') ?></h3>
+    <?= $this->Html->link(__('users'), ['controller' => 'Users','action' => 'index'], ['class' => 'button float-right']) ?>
+    <?= $this->Html->link(__('New Product'), ['action' => 'add'], ['class' => 'button float-left']) ?>
     <div class="table-responsive">
         <table>
             <thead>
