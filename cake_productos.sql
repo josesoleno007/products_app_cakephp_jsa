@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 24-09-2020 a las 19:49:24
+-- Tiempo de generación: 28-09-2020 a las 03:11:21
 -- Versión del servidor: 10.4.8-MariaDB
 -- Versión de PHP: 7.3.11
 
@@ -60,9 +60,9 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `email`, `password`) VALUES
-(1, 'dianata9512@gmail.com', '123456'),
-(2, 'josesoleno01@gmail.com', '654321'),
-(5, 'miguelromero@hotmail.com', '1234567890');
+(1, 'dianata9512@gmail.com', '$2y$10$c7sfQAd9IxU4T/KinWLVe.jl.JE8L91uq/.OwpiiOjb2eYAkLnf0W'),
+(2, 'josesoleno01@gmail.com', '$2y$10$u2dzBM.xi3xXmFt3WahL2eQPe18xCXOrS./wRpifMuEsO7b34nZFa'),
+(7, 'mromerop@misena.edu.co', '$2y$10$eUXfQkgHFvtu.ryZCT9TlOZ7cIscEihXqJmcgy0mjSbGfmcQkjq.6');
 
 --
 -- Índices para tablas volcadas
@@ -94,7 +94,7 @@ ALTER TABLE `products`
 -- AUTO_INCREMENT de la tabla `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
